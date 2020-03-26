@@ -72,4 +72,10 @@ new Chart(document.getElementById('pieChart'), {
 			}
 		]
 	},
+	options: {
+		title: {
+			display: true,
+			text: 'Peoples prefered pie'
+		}
+	}
 });
